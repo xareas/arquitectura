@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknotification_center=self.webpackChunknotification_center||[]).push([[7530],{4502:t=>{t.exports=JSON.parse('{"metadata":{"permalink":"/arquitectura/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);
