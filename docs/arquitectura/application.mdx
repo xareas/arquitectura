@@ -1,0 +1,32 @@
+---
+sidebar_position: 2
+---
+# .Application
+
+:::tip Que va aca !!!
+ En esta capa se encuentra la implementacion de los contratos de los aplication services.
+:::
+
+En esta capa nos podemos encontrar con:
+
+### Application Services
+Un servicio de aplicación es un servicio sin estado. esto son los que implementa casos de uso de la aplicación.
+El servicio de aplicación normalmente obtiene y devuelve DTOs. Estos Dtos son usados por la capa de presentación.
+Su funcion es **utilizar y coordinar los objetos de dominio para implementar los casos de uso.** Estos casos de uso
+son considerados unidades de trabajo, es decir no admite ejecuciones parciales.
+
+### Data Transfer Object (DTO)
+Un DTO es un objeto simple. Sin ninguna lógica de negocios que se utiliza para transferir el estado
+(datos) entre las capas de aplicación y presentación.
+
+### Unit of Work( UoW )
+Una Unidad de Trabajo es un trabajo atómico. Eso debe hacerse como una unidad de transacción. Todos
+Las operaciones dentro de una UOW deben realizarse en éxito o retroceder ante un fracaso, normalmente
+todas las tareas que se ejecutan al nivel de aplicación, deben ser de ese tipo.
+Aunque la implementacion de dicho patron reside en la capa de infraestructura, el uso de este tambien
+esta dentro de la capa de aplicación.
+
+:::info MAS INFORMACION
+[Servicios de Aplicacion](docs/ddd/services.md)
+:::
+
