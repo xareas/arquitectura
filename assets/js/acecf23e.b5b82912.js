@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunknotification_center=self.webpackChunknotification_center||[]).push([[1903],{1912:e=>{e.exports=JSON.parse('{"blogBasePath":"/arquitectura/blog","blogTitle":"Blog"}')}}]);
